@@ -1,4 +1,5 @@
 # Prisma
+ Learning Prisma basics
 
 ## Steps for Setup
 
@@ -13,9 +14,10 @@
 npx prisma migrate dev --name Initialize the schema
 
 In our case --
-npx prisma migrate dev --name UserAndTod
+```npx prisma migrate dev --name ```
+UserAndTod
 oAdded
 
 ## How to generate the client?
-npx prisma generate
+```npx prisma generate```
 This generates a new client  for you.
